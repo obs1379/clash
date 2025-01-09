@@ -80,7 +80,7 @@ proxy-providers:
 
   Subscribe3:        # 第三个订阅源
     <<: *a1
-    url: 
+    url: https://gist.githubusercontent.com/obs1379/ee09e8e6d4e1e785b50f1726a9e7aa3f/raw/giegie777
     path: ./proxy_providers/tmp3.yaml
     health-check:
       enable: true
