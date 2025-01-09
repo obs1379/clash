@@ -80,7 +80,7 @@ proxy-providers:
 
   Subscribe3:        # 第三个订阅源
     <<: *a1
-    url: https://fcsblka.fcsubcn.cc:2096/api/v1/client/subscribe?token=6575449368f6f4a8adc5137cf506fecf
+    url: 
     path: ./proxy_providers/tmp3.yaml
     health-check:
       enable: true
