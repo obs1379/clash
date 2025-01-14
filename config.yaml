@@ -80,7 +80,7 @@ proxy-providers:
 
   Subscribe3:        # 第三个订阅源
     <<: *a1
-    url: http://a.ydoo.vip:5917/sub/neo
+    url: http://127.0.0.1:38324/download/%E9%A6%99%E6%B8%AF%E8%87%AA%E5%BB%BA?target=ClashMeta
     path: ./proxy_providers/tmp3.yaml
     health-check:
       enable: true
