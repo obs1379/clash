@@ -198,10 +198,6 @@ rules:
 external-ui: dashboard-path
 external-controller: '0.0.0.0:9090'
 secret: 'life223'
-# 部署dashboard
-git clone https://github.com/haishanh/yacd.git
-cd yacd
-git checkout gh-pages
 
 # TUN模式是通过在操作系统上安装一个虚拟网卡来实现的，它可以接管所有的网络流量，并将流量转发至Clash，然后由Clash发出请求
 # Windows 系统中如何启用TUN模式
