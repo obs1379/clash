@@ -71,7 +71,7 @@ proxy-providers:
     
   Subscribe2:        # 第二个订阅源
     <<: *a1
-    url: https://gist.githubusercontent.com/obs1379/ee09e8e6d4e1e785b50f1726a9e7aa3f/raw/hy2
+    url: https://200api.momoxiaodian.cc/mo99/serve/axiba/gov?token=38f7a38be2a1ebc1f94384b87591d3b0
     path: ./proxy_providers/tmp2.yaml
     health-check:
       enable: true
